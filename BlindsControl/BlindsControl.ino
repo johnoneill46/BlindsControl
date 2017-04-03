@@ -1,6 +1,15 @@
 /*
  * Arduino program that will move servo depending on button pressed
+
+
+ TODO:
+ - extend servo arms to increase pullable distance
+ - Connect to internet
+ - Call servo change via internet call?
+ - Alexa app to control
+ 
  */
+ 
  #include <Servo.h>
   
     const int buttonPin = 2;
